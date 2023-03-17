@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MYPodLib1_Example' do
+  pod 'MYPodLib1', :path => '../'
+
+  target 'MYPodLib1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
