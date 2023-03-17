@@ -1,0 +1,22 @@
+{
+  "name": "MYPodLib1",
+  "version": "0.1.0",
+  "summary": "A short description of MYPodLib1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengchuancun-a1147/MYPodLib1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengchuancun-a1147": "chuancun.cheng-a1147@aqara.com"
+  },
+  "source": {
+    "git": "https://github.com/chengchuancun-a1147/MYPodLib1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MYPodLib1/Classes/**/*"
+}
