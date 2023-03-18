@@ -1,5 +1,9 @@
 PODS:
-  - MYPodLib1 (0.1.0)
+  - MYPodLib1 (0.1.0):
+    - MYPodLib1/MYLib (= 0.1.0)
+  - MYPodLib1/MYLib (0.1.0):
+    - MYPodLib1/MYLib/MYLibNew (= 0.1.0)
+  - MYPodLib1/MYLib/MYLibNew (0.1.0)
 
 DEPENDENCIES:
   - MYPodLib1 (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MYPodLib1: eb0ae510500896e19e8ec47d246681829101930d
+  MYPodLib1: 359a5426cbdd53c86782403114daf86b1a4fca0f
 
 PODFILE CHECKSUM: 9d8d4c3141cd28801085e6502cb781191c34f2fa
 

@@ -18,5 +18,23 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "MYPodLib1/Classes/**/*"
+  "source_files": "MYPodLib1/Classes/*",
+  "public_header_files": "MYPodLib1/Classes/MYPodHeader.h",
+  "resource_bundles": {
+    "MYFrameBundle": [
+      "MYPodLib1/Assets/*"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "MYLib",
+      "source_files": "MYPodLib1/Classes/MYLib/*",
+      "subspecs": [
+        {
+          "name": "MYLibNew",
+          "source_files": "MYPodLib1/Classes/MYLib/MYLibNew/*"
+        }
+      ]
+    }
+  ]
 }
